@@ -17,9 +17,7 @@ export default class FullList implements Lists {
     get list(): ListItem[] {
         return this._list
     }
-    // set list(list: ListItem[]){
-    //     this._list = list
-    // }
+   
     load(): void {
         const storedList: string | null = localStorage.getItem("myItem")
         if (typeof storedList !== "string") return
@@ -40,7 +38,7 @@ export default class FullList implements Lists {
     save(): void {
         localStorage.setItem("myItem", JSON.stringify(this._list))
     }
-    
+
     clearList(): void {
         this._list = []
         this.save()
