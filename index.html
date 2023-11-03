@@ -9,47 +9,55 @@
     <script type="module" src="js/main.js"></script>
 </head>
 
-<body>
+<body class=" bg-gray-950 text-black">
     <main>
-        <h1 class="offscreen">My List</h1>
+        <form id="form">
+            <input class="px-1 outline-none " id="form-input-text" type="text" placeholder="Add item">
+            <input class="cursor-pointer px-4 ml-2 bg-white text-black font-bold" id="btn" type="submit" value="Add">
+        </form>
+        <ul id="list"></ul>
+    </main>
+    <!-- <main>
+        <h1 class="offscreen ">My List</h1>
 
-        <section class="newItemEntry">
-            <h2 class="offscreen">New Item Entry</h2>
-            <form class="newItemEntry_form" id="itemEntryForm">
-                <label for="newItem" class="offscreen"> Enter a new to do item</label>
-                <input class="newItemEntry_input" id="newItem" type="text" maxlength="40" autocomplete="off" placeholder="Add Item" />
-                <button id="addItem" class="button newItemEntry_button" title="Add new item" aria-label="Add new item to list">+</button>
+        <section class="newItemEntry ">
+            <h2 class="offscreen ">New Item Entry</h2>
+            <form class="newItemEntry_form " id="itemEntryForm ">
+                <label for="newItem " class="offscreen "> Enter a new to do item</label>
+                <input class="newItemEntry_input " id="newItem " type="text " maxlength="40 " autocomplete="off " placeholder="Add Item " />
+                <button id="addItem " class="button newItemEntry_button " title="Add new item " aria-label="Add new item to list ">+</button>
             </form>
         </section>
 
-        <section class="listContainer">
-            <header class="listTitle">
-                <h2 id="listName">List</h2>
-                <button id="clearItemsButton" class="button listTitle__button" title="Clear the list" aria-label="Remove all items from the list">
+        <section class="listContainer ">
+            <header class="listTitle ">
+                <h2 id="listName ">List</h2>
+                <button id="clearItemsButton " class="button listTitle__button " title="Clear the list " aria-label="Remove all items from the list ">
                 Clear
               </button>
             </header>
             <hr />
-            <ul id="listItems">
-                <!-- <li class="item">
-                          <input type="checkbox" id="1">
-                          <label for="1">eat</label>
-                          <button class="button">X</button>
-                      </li>
-                      <li class="item">
-                          <input type="checkbox" id="2">
-                          <label for="2">sleep</label>
-                          <button class="button">X</button>
-                      </li>
-                      <li class="item">
-                          <input type="checkbox" id="3">
-                          <label for="3">code</label>
-                          <button class="button">X</button>
-                      </li> -->
+            <ul id="listItems ">
+
             </ul>
         </section>
-    </main>
+    </main> -->
     <script type="module " src="/src/main.ts "></script>
 </body>
 
 </html>
+<!-- <li class="item ">
+                          <input type="checkbox " id="1 ">
+                          <label for="1 ">eat</label>
+                          <button class="button ">X</button>
+                      </li>
+                      <li class="item ">
+                          <input type="checkbox " id="2 ">
+                          <label for="2 ">sleep</label>
+                          <button class="button ">X</button>
+                      </li>
+                      <li class="item ">
+                          <input type="checkbox " id="3 ">
+                          <label for="3 ">code</label>
+                          <button class="button ">X</button>
+                      </li> -->

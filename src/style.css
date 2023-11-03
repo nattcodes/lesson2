@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-* {
+body {
+    min-height: 100vh;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -151,3 +160,5 @@ section {
         gap: 0.5rem;
     }
 }
+
+*/
