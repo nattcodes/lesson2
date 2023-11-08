@@ -35,5 +35,5 @@ clearAll.addEventListener('click', (): void => {
     listTemplate.clear()
 })
 fulllist.load()
-listTemplate.render(fulllist)
+listTemplate.render(fulllist) 
 
