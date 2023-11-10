@@ -37,3 +37,4 @@ clearAll.addEventListener('click', (): void => {
 fulllist.load()
 listTemplate.render(fulllist) 
 
+
